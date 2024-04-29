@@ -1,0 +1,73 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body{
+    background: black;
+    color: white;
+    overflow-x: hidden;
+}
+#header1{
+    height: auto;
+    padding: 110px 0 0 0;
+    color: white;
+    background-image: url(/img/BG.png);
+    background-position-y: 20px;
+    background-repeat: repeat-y;
+}
+.container{
+    padding: 15px 20%;
+}
+.tutorial>*{
+    margin: 20px;
+}
+.tutorial p{
+    font-size: 1.3vw;
+    margin-bottom: 100px;
+}
+.tutorial{
+    padding: 100px;
+    background: rgb(61, 0, 114, 0.219);
+    box-shadow: 0px 0px 20px rgb(174, 0, 255);
+    border-radius: 15px;
+}
+.tutorial h1{
+    font-size: 3vw;
+    color: rgb(225, 0, 255);
+}
+.tutorial h2{
+    color: rgb(225, 0, 255);
+    font-size: 1.5vw;
+}
+.tutorial ul{
+    margin-bottom: 100px;
+}
+.tutorial ul li{
+    font-size: 1.3vw;
+    margin: 20px 0;
+}
+@media only screen and (max-width: 800px){
+    .tutorial p{
+        font-size: 12px;
+    }
+    .tutorial h1{
+        font-size: 16px;
+    }
+    .tutorial h2{
+        font-size: 14px;
+    }
+    .tutorial ul li{
+        font-size: 12px;
+    }
+    .tutorial{
+        padding: 10px;
+    }
+}

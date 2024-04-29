@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap-5.2.3-dist/css/bootstrap.min.csss" rel="stylesheet">
+    <link rel="stylesheet" href="style/homepage.css">
+    <script src="https://kit.fontawesome.com/8e14835668.js" crossorigin="anonymous"></script>
+    <title>GawkyTorial</title>
+  </head>
+  <body>
+      <div id="header">
+        <div class="container">
+          <header>
+            <nav>
+              <h1><span>Gawky</span>Torial</h1>
+              <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <i class="fa-regular fa-circle-xmark"onclick="closemenu()"></i>
+              </ul>
+              <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+            </nav>
+          </header>
+          <div class="header-text">
+            <h1>Hello!</h1>
+            <p>
+              I'm <span><a href="https://youtu.be/-dwPmZLF5Co" target="_blank">Mhar Castro</a></span>, a Freelancer with a passion <br>for Editting. 
+              In this page, you'll find a snapshot of my<br> journey, 
+              showcasing my skills in editing. From a notable<br> project to 
+              another, each piece reflects my commitment<br> to quality and innovation.
+              I'll also teach you some<br> techniques I got that could prove useful
+              to you in <br>the near future.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+
+
+
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="img/DP.png" alt="">
+            </div>
+            <div class="about-col-2">
+              <h1 class="Title">About This Page</h1>
+              <p class="Definiiton">Welcome to my editing sanctuary! Here, I'll guide you through the artistry and techniques of editing, 
+                from refining grammar to mastering software like Premiere Pro and Photoshop. Let's explore 
+                storytelling nuances, embrace collaboration, and celebrate the magic of crafting compelling 
+                narratives together. Join me on this journey of discovery as we uncover the secrets and 
+                intricacies of the editing world!
+              </p>
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('photoshop')">Photoshop</p>
+                <p class="tab-links" onclick="opentab('premiere')">Premiere Pro</p>
+                <p class="tab-links" onclick="opentab('java')">Java</p>
+              </div>
+              <div class="tab-contents active-tab" id="photoshop">
+                <ul>
+                  <li><span>Open Images</span><br>I will teach you how to open an image</li>
+                  <li><span>Get Familiar With the Work Area</span><br>I will teach you to get familiar with the work area</li>
+                  <li><span>Zoom and Pan</span><br>I will teach you how to zoom and pan in the work area</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="premiere">
+                <ul>
+                  <li><span>Work With Image Files</span><br>I will teach you how to work with Image files</li>
+                  <li><span>Create New Title</span><br>I will teach you how to create new title</li>
+                  <li><span>Change the size of clips</span><br>I will teach you how to change the size of clips</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="java">
+                <ul>
+                  <li><span>Install Java Development Kit (JDK)</span><br>I will teach you how to install JDK</li>
+                  <li><span>Set Up Your Development Environment</span><br>I will teach you how to set up your IDE</li>
+                  <li><span>Write Your First Java Program</span><br>I will teach you how to write your first Java Program</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      
+      <div id="skills">
+        <div class="container">
+          <center>
+          <h1 class="Title1">My<span>Skills</span></h1>
+          <div class="skill-list">
+            <div>
+              <i class="fa-regular fa-images"></i>
+              <h2>Photoshop</h2>
+              <p>In this section, I will teach you tips and tricks that I learned in Photoshop. Throughout my journey on learning, 
+                I had a few setbacks, but you can easily avoid this using the tips that I will teach you
+              </p>
+              <a href="Photoshop.html" target="_blank">Learn More</a>
+            </div>
+            <div>
+              <i class="fa-solid fa-video"></i>
+              <h2>Premiere Pro</h2>
+              <p>In this section, I will teach you tips and tricks that I learned in Premiere Pro. Throughout my journey on learning, 
+                I had a few setbacks, but you can easily avoid this using the tips that I will teach you
+              </p>
+              <a href="Premiere.html" target="_blank">Learn More</a>
+            </div>
+            <div>
+              <i class="fa-brands fa-java"></i>
+              <h2>Java</h2>
+              <p>In this section, I will teach you tips and tricks that I learned in Java. Throughout my journey on learning, 
+                I had a few setbacks, but you can easily avoid this using the tips that I will teach you
+              </p>
+              <a href="Java.html" target="_blank">Learn More</a>
+            </div>
+          </div>  
+          </center>
+        </div>
+      </div>
+
+
+
+
+      <div id="project">
+        <div class="container">
+          <center><h1 class="Title1">My<span>Projects</span></h1></center>
+          <div class="row0">
+            <div class="col">
+              <img src="img/Dessert Model.png" alt="Desset Model">
+              <h2>Dessert Model</h2>
+              <p>This is an edit of A Dessert I painted in Photoshop</p>
+              <center><a href="DL FIles/Dessert Model.psd" download><i class="fa-solid fa-ellipsis"></i></a></center>
+            </div>
+            <div class="col">
+              <img src="img/Lake Model.png" alt="Lake Model">
+              <h2>Lake Model</h2>
+              <p>This is an edit of A Lake I painted in Photoshop</p>
+              <center><a href="DL FIles/Lake Model.psd" download><i class="fa-solid fa-ellipsis"></i></a></center>
+            </div>
+            <div class="col">
+              <img src="img/Cliff Model.png" alt="Cliff Model">
+              <h2>Cliff Model</h2>
+              <p>This is an edit of A Cliff I painted in Photoshop</p>
+              <center><a href="DL FIles/Cliff Model.psd" download><i class="fa-solid fa-ellipsis"></i></a></center>
+            </div>
+            <div class="col">
+              <img src="img/Forest Model.png" alt="Cliff Model">
+              <h2>Forest Model</h2>
+              <p>This is an edit of A Forest I painted in Photoshop</p>
+              <center><a href="DL FIles/Forest Model.psd" download><i class="fa-solid fa-ellipsis"></i></a></center>
+            </div>
+            <div class="col">
+              <img src="img/Grass Field Model.png" alt="Cliff Model">
+              <h2>Grass Field Model</h2>
+              <p>This is an edit of A Grass Field I painted in Photoshop</p>
+              <center><a href="DL FIles/Grass Field Model.psd" download><i class="fa-solid fa-ellipsis"></i></a></center>
+            </div>
+            <div class="col">
+              <img src="img/Moon and Earth Model.png" alt="Cliff Model">
+              <h2>Moon and Earth Model</h2>
+              <p>This is an edit of A Moon and Earth I painted in Photoshop</p>
+              <center><a href="DL FIles/Moon and Earth Model.psd" download><i class="fa-solid fa-ellipsis"></i></a></center>
+            </div>
+            <div class="col">
+              <img src="img/Ocean Model.png" alt="Cliff Model">
+              <h2>Ocean Modell</h2>
+              <p>This is an edit of A Ocean I painted in Photoshop</p>
+              <center><a href="DL FIles/Ocean Model.psd" download><i class="fa-solid fa-ellipsis"></i></a></center>
+            </div>
+            <div class="col">
+              <img src="img/Starnatch Cliff.png" alt="Cliff Model">
+              <h2>Starnatch Cliff Model</h2>
+              <p>This is an edit of Startnatch Cliff I painted in Photoshop</p>
+              <center><a href="DL FIles/Starnatch Cliff.psd" download><i class="fa-solid fa-ellipsis"></i></a></center>
+            </div>
+            <div class="col">
+              <img src="img/Sunny Thing Model.png" alt="Cliff Model">
+              <h2>Sunny Scenery Model</h2>
+              <p>This is an edit of A Sunny Scenery I painted in Photoshop</p>
+              <center><a href="DL FIles/Sunny Thing Model.psd" download><i class="fa-solid fa-ellipsis"></i></a></center>
+            </div>
+            <div class="col">
+              <img src="img/Under The Ocean Model.png" alt="Cliff Model">
+              <h2>Under The Ocean Model</h2>
+              <p>This is an edit of Under The Ocean I painted in Photoshop</p>
+              <center><a href="DL FIles/Under The Ocean Model.psd" download><i class="fa-solid fa-ellipsis"></i></a></center>
+            </div>
+            <div class="col">
+              <img src="img/Eminence in Shadow.png" alt="Cliff Model">
+              <h2>Eminence in Shadow</h2>
+              <p>This is an edit of an anime card titled "Eminence in Shadow"</p>
+              <center><a href="DL FIles/Eminence in Shadow.psd" download><i class="fa-solid fa-ellipsis"></i></a></center>
+            </div>
+            <div class="col">
+              <img src="img/Frieren.png" alt="Cliff Model">
+              <h2>Frieren</h2>
+              <p>This is an edit of an anime card titled "Frieren"</p>
+              <center><a href="DL FIles/Frieren.psd" download><i class="fa-solid fa-ellipsis"></i></a></center>
+            </div>
+            <div class="col">
+              <img src="img/Hell's Paradise.png" alt="Cliff Model">
+              <h2>Hell's Paradise</h2>
+              <p>This is an edit of an anime card titled "Hell's Paradise"</p>
+              <center><a href="DL FIles/Hell's Paradise.psd" download><i class="fa-solid fa-ellipsis"></i></a></center>
+            </div>
+            <div class="col">
+              <img src="img/Horimiya.png" alt="Cliff Model">
+              <h2>Horimiya</h2>
+              <p>This is an edit of an anime card titled "Horimiya"</p>
+              <center><a href="DL FIles/Horimiya.psd" download><i class="fa-solid fa-ellipsis"></i></a></center>
+            </div>
+            <div class="col">
+              <img src="img/Jujutsu Kaisen.png" alt="Cliff Model">
+              <h2>Jujutsu Kaisen</h2>
+              <p>This is an edit of an anime card titled "Jujutsu Kaisen"</p>
+              <center><a href="DL FIles/Jujutsu Kaisen.psd" download><i class="fa-solid fa-ellipsis"></i></a></center>
+            </div>
+            <div class="col">
+              <img src="img/Kaguya Shinomiya.png" alt="Cliff Model">
+              <h2>Kaguya-Sama:Love Is War</h2>
+              <p>This is an edit of an anime card titled "Kaguya-Sama:Love Is War"</p>
+              <center><a href="DL FIles/Kaguya Shinomiya.psd" download><i class="fa-solid fa-ellipsis"></i></a></center>
+            </div>
+            <div class="col">
+              <img src="img/Mashle.png" alt="Cliff Model">
+              <h2>Mashle</h2>
+              <p>This is an edit of an anime card titled "Mashle"</p>
+              <center><a href="DL FIles/Mashle.psd" download><i class="fa-solid fa-ellipsis"></i></a></center>
+            </div>
+            <div class="col">
+              <img src="img/Mushoku.png" alt="Cliff Model">
+              <h2>Mushoku Tensei</h2>
+              <p>This is an edit of an anime card titled "Mushoku Tensei"</p>
+              <center><a href="DL FIles/Mushoku.psd" download><i class="fa-solid fa-ellipsis"></i></a></center>
+            </div>
+            <div class="col">
+              <img src="img/Spy X Family.png" alt="Cliff Model">
+              <h2>Spy X Family</h2>
+              <p>This is an edit of an anime card titled "Spy X Family"</p>
+              <center><a href="DL FIles/Spy X Family.psd" download><i class="fa-solid fa-ellipsis"></i></a></center>
+            </div>
+            <div class="col">
+              <img src="img/Tensura.png" alt="Cliff Model">
+              <h2>Tensura</h2>
+              <p>This is an edit of an anime card titled "Tensura"</p>
+              <center><a href="DL FIles/Tensura.psd" download><i class="fa-solid fa-ellipsis"></i></a></center>
+            </div>
+            <div class="col">
+              <video src="mp4/Castro_Masterpiece2.mp4" controls></video>
+              <h2>Masterpiece</h2>
+              <p>I editted this video using Premiere Pro</p>
+              <center><a href="DL FIles/Castro_Masterpiece.prproj" download><i class="fa-solid fa-ellipsis"></i></a></center>
+            </div>
+            <div class="col">
+              <video src="mp4/Brendan_Cutie_Intrcs.mp4" controls></video>
+              <h2>INTRCS</h2>
+              <p>This is one of our video project. It was a group project to be percise</p>
+              <center><a href="DL FIles/Intrcs_Edit.prproj" download><i class="fa-solid fa-ellipsis"></i></a></center>
+            </div>
+            <div class="col">
+              <img src="img/MagicSquare.jpg" alt="">
+              <h2>MagicSquare</h2>
+              <p>This is a java Program that I coded, it produces a Magic Square</p>
+              <center><a href="DL FIles/MagicSquare.java" download><i class="fa-solid fa-ellipsis"></i></a></center>
+            </div>
+            <div class="col">
+              <img src="img/Circle.png" alt="">
+              <h2>Area Of Circle</h2>
+              <p>This is a java Program that I coded, it calculates the area of a Circle</p>
+              <center><a href="DL FIles/MagicSquare.java" download><i class="fa-solid fa-ellipsis"></i></a></center>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div id="contacts">
+        <div class="container">
+          <div class="row1">
+            <div class="col-left">
+              <h1 class="Title1">Contact<span> Me</span></h1>
+              <p><i class="fa-solid fa-paper-plane"></i> 20235170@s.ubaguio.edu</p>
+              <p><i class="fa-solid fa-phone"></i> 09984654458</p>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/walang.username.64"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/Sungjin_64"><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="https://www.pinterest.ph/castromhar970"><i class="fa-brands fa-square-pinterest"></i></a>
+                <a href="https://www.youtube.com/@mharcastro2940"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+            </div>
+            <div class="col-right">
+              <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+              <span id="msg"></span>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <p>Copyright © Gawky. Created by <i class="fa-solid fa-heart"></i> GawkyTorial. All rights reserved</p>
+        </div>
+      </div>
+      <script src="bootstrap-5.2.3-dist/js/bootstrap.style.js"></script>
+  </body>
+</html>
