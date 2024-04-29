@@ -538,7 +538,7 @@ nav .fa-solid{
     }
     .row0{
         grid-auto-columns: 110%;
-        
+        scroll-padding-inline: 11px;
     }
     .col h2{
         font-size: 14px;
