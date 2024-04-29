@@ -19,7 +19,7 @@ body{
     height: auto;
     padding: 110px 0 0 0;
     color: white;
-    background-image: url(/img/BG.png);
+    background-image: url(BG.png);
     background-position-y: 20px;
     background-repeat: repeat-y;
 }
